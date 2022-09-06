@@ -25,6 +25,12 @@ eksctl create cluster --name=eksdemo1 \
                       --zones=ap-south-1a,ap-south-1b \
                       --without-nodegroup 
 
+Wait until your cluster will be created which is a time consuming process, find the below screenshot log
+```
+<img width="1454" alt="image" src="https://user-images.githubusercontent.com/14862424/188573526-5bc546aa-e3a0-4ef0-abee-5d95581bd46a.png">
+
+
+```
 # Get List of clusters
 eksctl get cluster                  
 ```
