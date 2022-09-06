@@ -113,6 +113,14 @@ brew tap weaveworks/tap
 
 # Install the Weaveworks Homebrew tap.
 brew install weaveworks/tap/eksctl
+==> If you face any below screenshot ERROR then follow the inline below mentioned steps :
+
+<img width="1896" alt="image" src="https://user-images.githubusercontent.com/14862424/188546981-44b48456-4480-4774-bfa4-58ef28970df9.png">
+
+[Follwed manually installed steps of https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html]
+
+<img width="1491" alt="image" src="https://user-images.githubusercontent.com/14862424/188547132-400263b2-4607-4691-ae7f-dcf0e298aa8c.png">
+
 
 # Verify eksctl version
 eksctl version
