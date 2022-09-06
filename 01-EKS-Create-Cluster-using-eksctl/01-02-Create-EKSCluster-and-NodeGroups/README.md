@@ -33,6 +33,12 @@ eksctl get cluster
 ```
 eksctl delete cluster --region=ap-south-1 --name=eksdemo1
 ```
+##Connecting to existing EKS cluster using kubectl or eksctl
+
+```
+aws eks update-kubeconfig --name eksdemo1  --region ap-south-1
+eksctl utils write-kubeconfig --cluster=eksdemo1
+```
 
 ## Step-02: Create & Associate IAM OIDC Provider for our EKS Cluster
 - To enable and use AWS IAM roles for Kubernetes service accounts on our EKS cluster, we must create &  associate OIDC identity provider.
