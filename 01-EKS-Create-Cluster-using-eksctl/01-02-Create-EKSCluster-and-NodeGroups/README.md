@@ -11,14 +11,18 @@
 - Create EKS Node Groups
 - Verify Cluster, Node Groups, EC2 Instances, IAM Policies and Node Groups
 
+```
+To see availibity zones :
+aws ec2 describe-availability-zones --region ap-south-1
+```
 
 ## Step-01: Create EKS Cluster using eksctl
 - It will take 15 to 20 minutes to create the Cluster Control Plane 
 ```
 # Create Cluster
 eksctl create cluster --name=eksdemo1 \
-                      --region=us-east-1 \
-                      --zones=us-east-1a,us-east-1b \
+                      --region=ap-south-1 \
+                      --zones=ap-south-1a,ap-south-1b \
                       --without-nodegroup 
 
 # Get List of clusters
