@@ -91,7 +91,11 @@ eksctl create nodegroup --cluster=eksdemo1 \
                         --full-ecr-access \
                         --appmesh-access \
                         --alb-ingress-access 
+                        
+Wait for the completion, below the log screenshot
 ```
+<img width="847" alt="image" src="https://user-images.githubusercontent.com/14862424/188574692-467180da-2619-4551-8993-4fef2b947b40.png">
+
 
 ## Step-05: Verify Cluster & Nodes
 
